@@ -1,0 +1,49 @@
+body{
+    margin-top: 20vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    height: 55vh;
+    width: 55vb;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(20, 169, 20),rgb(39, 39, 173));
+}
+
+.title{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.display{
+    margin: 50px 0px;
+    color: white;
+}
+
+button{
+    margin: 4px;
+    height: 35px;
+    width: 75px;
+    font-size: large;
+    border-style: outset transparent;
+    border-radius: 4px;
+}
+
+#Rock{
+    background-color:  rgba(173, 36, 36, 0.712) ;
+    color: white;
+}
+
+#Scissors{
+    background-color: silver;
+}
+
+#Paper{
+    background-color: lightblue;
+}
